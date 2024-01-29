@@ -1,11 +1,14 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Layout from "./global/layout";
+import Home from "./pages/home";
 
 function App() {
   return (
     <>
-      <Layout></Layout>
+      <Layout>
+        <Home />
+      </Layout>
     </>
   );
 }
