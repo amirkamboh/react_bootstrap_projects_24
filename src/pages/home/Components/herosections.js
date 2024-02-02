@@ -1,11 +1,20 @@
 import React from 'react'
 import { Container } from 'react-bootstrap';
+import imge from './../../../media/Images/headerimage.jpg'
 
 const Herosections = () => {
     return (
     <>
         <Container>
-        <img src='https://mdbootstrap.com/img/new/slides/041.webp' className='img-fluid shadow-4' alt='...' />
+        <h4 className='text-center mx-5 my-5'>Blog Page</h4>
+       {/*
+        <nav aria-label="breadcrumb center">
+         <ol class="breadcrumb">
+          <li class="breadcrumb-item">Home</li>
+          <li class="breadcrumb-item active" aria-current="page">Link One</li>
+         </ol>
+        </nav> */}
+        <img src={imge} className="img-fluid" alt="" />
         </Container>
     </>
     );
