@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Form } from 'react-bootstrap';
-import imglogo from './../../media/Images/Logo.png'
+import Logo from './../../media/Images/meta.png'
 
 const Header = () => {
 
@@ -18,7 +18,7 @@ const Header = () => {
     <>
       <Navbar collapseOnSelect expand="lg" className="bg-body-white">
       <Container>
-        <Navbar.Brand href="/"><img src={imglogo} alt='imglogo'></img></Navbar.Brand>
+        <Navbar.Brand href="/"><img src={Logo} alt='Logo'></img></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mx-auto">
