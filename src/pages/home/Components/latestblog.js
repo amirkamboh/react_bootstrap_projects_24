@@ -14,10 +14,11 @@ const Latestblog = () => {
   return (
     <>
       <div className="blog-sections">
+
         <div className="container">
-            <div className="row">
+            <div className="row mt-5">
                 <div className="col-md-4 col-xs-12">
-                <Card className='mt-5'>
+                <Card className='mt-3'>
                 <div className="img pt-2 px-2">
                 <img style={{ height: '250px', width: '100%' }} className="rounded-2" src={Beach} alt='Beach'/>
                 </div>
@@ -42,7 +43,7 @@ const Latestblog = () => {
                 </div>
 
                 <div className="col-md-4 col-xs-12">
-                <Card className='mt-5'>
+                <Card className='mt-3'>
                 <div className="img pt-2 px-2">
                 <img style={{ height: '250px', width: '100%' }} className="rounded-2" src={Car} alt='Car'/>
                 </div>
@@ -67,7 +68,7 @@ const Latestblog = () => {
                 </div>
 
                 <div className="col-md-4 col-xs-12">
-                <Card className='mt-5'>
+                <Card className='mt-3'>
                 <div className="img pt-2 px-2">
                 <img style={{ height: '250px', width: '100%' }} className="rounded-2" src={Masque} alt='Masque'/>
                 </div>
@@ -247,6 +248,17 @@ const Latestblog = () => {
 
             </div>
         </div>
+
+        <div className="container">
+            <div className="row mt-4">
+                  <div className="col-md-12 col-xs-12">
+                  <div className="d-md-flex justify-content-md-center">
+                  <button class="btn border border-dark" type="button">Load More</button>
+                  </div>
+                  </div>
+            </div>
+        </div>
+
       </div>
     </>
   )
