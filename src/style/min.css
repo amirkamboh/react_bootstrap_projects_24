@@ -8,6 +8,12 @@
     background-color: lightgrey;
     padding: 7px 0px;
 }
+.Nav_space {
+    margin-top: -12px;
+}
+.card_overlay {
+    margin-top: 240px;
+}
 /*
 ul li {
     display: block;

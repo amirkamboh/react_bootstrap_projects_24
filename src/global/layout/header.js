@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Form } from 'react-bootstrap';
-import imglogo from './../../media/Images/Logo.PNG'
+import imglogo from './../../media/Images/Logo.png'
 
 const Header = () => {
 
@@ -16,20 +16,25 @@ const Header = () => {
 
   return (
     <>
-      <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
+      <Navbar collapseOnSelect expand="lg" className="bg-body-white">
       <Container>
         <Navbar.Brand href="/"><img src={imglogo} alt='imglogo'></img></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="mx-auto">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/blog">Blog</Nav.Link>
             <Nav.Link href="/single-post">Single Post</Nav.Link>
-            <Nav.Link href="/contact-us">Contact Us</Nav.Link>
+            <Nav.Link href="/pages">Pages</Nav.Link>
+            <Nav.Link href="/contact">Contact</Nav.Link>
           </Nav>
           <Form className="d-flex">
             <Form.Control type="search" placeholder="Search" className="me-2" aria-label="Search"/>
           </Form>
+          <div class="form-check form-switch">
+  <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault"/>
+  <label class="form-check-label" for="flexSwitchCheckDefault">Dark Mode</label>
+</div>
         </Navbar.Collapse>
       </Container>
     </Navbar>

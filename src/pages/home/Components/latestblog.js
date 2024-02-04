@@ -16,13 +16,15 @@ const Latestblog = () => {
       <div className="blog-sections">
         <div className="container">
             <div className="row">
-                <div className="col-md-4 col-xs-6">
-                <Card style={{ height: '28rem' }} className='mt-3'>
-                <Card.Img style={{ height: '250px' }} className="pt-3 ps-3 pe-3 rounded" src={Beach} alt='Beach'/>
+                <div className="col-md-4 col-xs-12">
+                <Card style={{ height: '' }} className='mt-5'>
+                <div className="img pt-2 px-2">
+                <img style={{ height: '250px', width: '100%' }} className="rounded-2" src={Beach} alt='Beach'/>
+                </div>
                 <Card.Body>
                 <Button variant="light text-primary mb-2">Technology</Button>
                 <Card.Text>
-                <h4>The Impact of Technology on the Workplace: How Technology is Changing</h4>
+                <h3>The Impact of Technology on the Workplace: How Technology is Changing</h3>
                 <div className='d-flex'>
                <img
                      src='https://mdbcdn.b-cdn.net/img/new/avatars/2.webp'
@@ -39,13 +41,15 @@ const Latestblog = () => {
                 </Card>
                 </div>
 
-                <div className="col-md-4 col-xs-6">
-                <Card style={{ height: '28rem' }} className='mt-3'>
-                <Card.Img style={{ height: '250px' }} className="pt-3 ps-3 pe-3 rounded" src={Car} alt='Car'/>
+                <div className="col-md-4 col-xs-12">
+                <Card style={{ height: '30rem' }} className='mt-5'>
+                <div className="img pt-2 px-2">
+                <img style={{ height: '250px', width: '100%' }} className="rounded-2" src={Car} alt='Car'/>
+                </div>
                 <Card.Body>
                 <Button variant="light text-primary mb-2">Technology</Button>
                 <Card.Text>
-                <h4>The Impact of Technology on the Workplace: How Technology is Changing</h4>
+                <h3>The Impact of Technology on the Workplace: How Technology is Changing</h3>
                 <div className='d-flex'>
                <img
                      src='https://picsum.photos/200/300'
@@ -54,7 +58,7 @@ const Latestblog = () => {
                      style={{ width: '25px', height: '25px' }}
                />
                <div>
-              <p className='text-muted'>Tracey Wilson<small className='ms-4'>February 02, 2024</small></p>
+              <p className='text-muted'>Billy Wilson<small className='ms-4'>March 02, 2024</small></p>
                </div>
                </div>
                 </Card.Text>
@@ -62,13 +66,15 @@ const Latestblog = () => {
                 </Card>
                 </div>
 
-                <div className="col-md-4 col-xs-6">
-                <Card style={{ height: '28rem' }} className='mt-3'>
-                <Card.Img style={{ height: '250px' }} className="pt-3 ps-3 pe-3" src={Masque} alt='Masque'/>
+                <div className="col-md-4 col-xs-12">
+                <Card style={{ height: '30rem' }} className='mt-5'>
+                <div className="img pt-2 px-2">
+                <img style={{ height: '250px', width: '100%' }} className="rounded-2" src={Masque} alt='Masque'/>
+                </div>
                 <Card.Body>
                 <Button variant="light text-primary mb-2">Technology</Button>
                 <Card.Text>
-                <h4>The Impact of Technology on the Workplace: How Technology is Changing</h4>
+                <h3>The Impact of Technology on the Workplace: How Technology is Changing</h3>
                 <div className='d-flex'>
                <img
                      src='https://picsum.photos/200/301'
@@ -77,7 +83,7 @@ const Latestblog = () => {
                      style={{ width: '25px', height: '25px' }}
                />
                <div>
-              <p className='text-muted'>Tracey Wilson<small className='ms-4'>February 02, 2024</small></p>
+              <p className='text-muted'>Tom Curran<small className='ms-4'>January 04, 2024</small></p>
                </div>
                </div>
                 </Card.Text>
@@ -88,12 +94,14 @@ const Latestblog = () => {
             </div>
             <div className="row">
                 <div className="col-md-4 col-xs-6">
-                <Card style={{ height: '28rem' }} className='mt-3'>
-                <Card.Img style={{ height: '250px' }} className="pt-3 ps-3 pe-3" src={Buzzar} alt='Buzzar'/>
+                <Card style={{ height: '30rem' }} className='mt-3'>
+                <div className="img pt-2 px-2">
+                <img style={{ height: '250px', width: '100%' }} className="rounded-2" src={Buzzar} alt='Buzzar'/>
+                </div>
                 <Card.Body>
                 <Button variant="light text-primary mb-2">Technology</Button>
                 <Card.Text>
-                <h4>The Impact of Technology on the Workplace: How Technology is Changing</h4>
+                <h3>The Impact of Technology on the Workplace: How Technology is Changing</h3>
                 <div className='d-flex'>
                <img
                      src='https://picsum.photos/200'
