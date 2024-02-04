@@ -17,7 +17,7 @@ const Latestblog = () => {
         <div className="container">
             <div className="row">
                 <div className="col-md-4 col-xs-12">
-                <Card style={{ height: '' }} className='mt-5'>
+                <Card className='mt-5'>
                 <div className="img pt-2 px-2">
                 <img style={{ height: '250px', width: '100%' }} className="rounded-2" src={Beach} alt='Beach'/>
                 </div>
@@ -42,7 +42,7 @@ const Latestblog = () => {
                 </div>
 
                 <div className="col-md-4 col-xs-12">
-                <Card style={{ height: '30rem' }} className='mt-5'>
+                <Card className='mt-5'>
                 <div className="img pt-2 px-2">
                 <img style={{ height: '250px', width: '100%' }} className="rounded-2" src={Car} alt='Car'/>
                 </div>
@@ -67,7 +67,7 @@ const Latestblog = () => {
                 </div>
 
                 <div className="col-md-4 col-xs-12">
-                <Card style={{ height: '30rem' }} className='mt-5'>
+                <Card className='mt-5'>
                 <div className="img pt-2 px-2">
                 <img style={{ height: '250px', width: '100%' }} className="rounded-2" src={Masque} alt='Masque'/>
                 </div>
@@ -94,7 +94,7 @@ const Latestblog = () => {
             </div>
             <div className="row">
                 <div className="col-md-4 col-xs-6">
-                <Card style={{ height: '30rem' }} className='mt-3'>
+                <Card className='mt-3'>
                 <div className="img pt-2 px-2">
                 <img style={{ height: '250px', width: '100%' }} className="rounded-2" src={Buzzar} alt='Buzzar'/>
                 </div>
@@ -119,12 +119,14 @@ const Latestblog = () => {
                 </div>
 
                 <div className="col-md-4 col-xs-6">
-                <Card style={{ height: '28rem' }} className='mt-3'>
-                <Card.Img style={{ height: '250px' }} className="pt-3 ps-3 pe-3" src={Technology} alt='Technology'/>
+                <Card className='mt-3'>
+                <div className="img pt-2 px-2">
+                <img style={{ height: '250px', width: '100%' }} className="rounded-2" src={Technology} alt='Technology'/>
+                </div>
                 <Card.Body>
                 <Button variant="light text-primary mb-2">Technology</Button>
                 <Card.Text>
-                <h4>The Impact of Technology on the Workplace: How Technology is Changing</h4>
+                <h3>The Impact of Technology on the Workplace: How Technology is Changing</h3>
                 <div className='d-flex'>
                <img
                      src='https://mdbcdn.b-cdn.net/img/new/avatars/2.webp'
@@ -142,12 +144,14 @@ const Latestblog = () => {
                 </div>
 
                 <div className="col-md-4 col-xs-6">
-                <Card style={{ height: '28rem' }} className='mt-3'>
-                <Card.Img style={{ height: '250px' }} className="pt-3 ps-3 pe-3" src={Mountain} alt='Mountain'/>
+                <Card className='mt-3'>
+                <div className="img pt-2 px-2">
+                <img style={{ height: '250px', width: '100%' }} className="rounded-2" src={Mountain} alt='Mountain'/>
+                </div>
                 <Card.Body>
                 <Button variant="light text-primary mb-2">Technology</Button>
                 <Card.Text>
-                <h4>The Impact of Technology on the Workplace: How Technology is Changing</h4>
+                <h3>The Impact of Technology on the Workplace: How Technology is Changing</h3>
                 <div className='d-flex'>
                <img
                      src='https://picsum.photos/200/305'
@@ -167,12 +171,14 @@ const Latestblog = () => {
             </div>
             <div className="row">
                 <div className="col-md-4 col-xs-6">
-                <Card style={{ height: '28rem' }} className='mt-3'>
-                <Card.Img style={{ height: '250px' }} className="pt-3 ps-3 pe-3" src={Nature} alt='Nature'/>
+                <Card className='mt-3'>
+                <div className="img pt-2 px-2">
+                <img style={{ height: '250px', width: '100%' }} className="rounded-2" src={Nature} alt='Nature'/>
+                </div>
                 <Card.Body>
                 <Button variant="light text-primary mb-2">Technology</Button>
                 <Card.Text>
-                <h4>The Impact of Technology on the Workplace: How Technology is Changing</h4>
+                <h3>The Impact of Technology on the Workplace: How Technology is Changing</h3>
                 <div className='d-flex'>
                <img
                      src='https://mdbcdn.b-cdn.net/img/new/avatars/2.webp'
@@ -190,12 +196,14 @@ const Latestblog = () => {
                 </div>
 
                 <div className="col-md-4 col-xs-6">
-                <Card style={{ height: '28rem' }} className='mt-3'>
-                <Card.Img style={{ height: '250px' }} className="pt-3 ps-3 pe-3" src={House} alt='House'/>
+                <Card className='mt-3'>
+                <div className="img pt-2 px-2">
+                <img style={{ height: '250px', width: '100%' }} className="rounded-2" src={House} alt='House'/>
+                </div>
                 <Card.Body>
                 <Button variant="light text-primary mb-2">Technology</Button>
                 <Card.Text>
-                <h4>The Impact of Technology on the Workplace: How Technology is Changing</h4>
+                <h3>The Impact of Technology on the Workplace: How Technology is Changing</h3>
                 <div className='d-flex'>
                <img
                      src='https://picsum.photos/203'
@@ -213,12 +221,14 @@ const Latestblog = () => {
                 </div>
 
                 <div className="col-md-4 col-xs-6">
-                <Card style={{ height: '28rem' }} className='mt-3'>
-                <Card.Img style={{ height: '250px' }} className="pt-3 ps-3 pe-3" src={Building} alt='Building'/>
+                <Card className='mt-3'>
+                <div className="img pt-2 px-2">
+                <img style={{ height: '250px', width: '100%' }} className="rounded-2" src={Building} alt='Building'/>
+                </div>
                 <Card.Body>
                 <Button variant="light text-primary mb-2">Technology</Button>
                 <Card.Text>
-                <h4>The Impact of Technology on the Workplace: How Technology is Changing</h4>
+                <h3>The Impact of Technology on the Workplace: How Technology is Changing</h3>
                 <div className='d-flex'>
                <img
                      src='https://picsum.photos/200/304'
