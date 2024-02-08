@@ -4,14 +4,19 @@ import Layout from "./global/layout";
 import Home from "./pages/home";
 import SinglePost from "./pages/single_post";
 import Contact from "./pages/contact";
+import Blog from './pages/blog'
+import { Route,Routes } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
       <Layout>
-        <Home />
-        <SinglePost />
-        <Contact />
+        <Routes>
+          <Route path="/" exact element={<Home />} />
+          <Route path="/single-post" exact element={<SinglePost />} />
+          <Route path="/contact" exact element={<Contact />} />
+          <Route path="/blog" exact element={<Blog />} />
+        </Routes>
       </Layout>
     </div>
   );

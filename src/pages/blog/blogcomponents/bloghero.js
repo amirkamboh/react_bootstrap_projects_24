@@ -1,14 +1,21 @@
 import React from 'react'
-import { Card } from 'react-bootstrap';
+import { Container, Card } from 'react-bootstrap';
 import imge from './../../../media/Images/headerimage.jpg'
 
-const Herosections = () => {
-    return (
-      
-<div className="container">
-    <div className="row mt-5">
-        <div className="col-md-12 col-xs-12">
-        <div className="card rounded-3">
+const Bloghero = () => {
+  return (
+    <>
+      <Container>
+        <h4 className='text-center mt-4'><strong>Blog Page</strong></h4>
+            
+    <nav class="navbar navbar-expand-sm bg-body-white Nav_space mb-3">  
+    <ol class="breadcrumb mx-auto">
+    <li class="breadcrumb-item">Home</li>
+    <li class="breadcrumb-item active" aria-current="page">Link One</li>
+    </ol>  
+    </nav>
+
+       <div className="card rounded-3">
            <img className="card-img rounded-3" src={imge} alt="imge" style={{height: '480px'}} />
       
            <div className="card-img-overlay">
@@ -42,10 +49,10 @@ const Herosections = () => {
 
             </div>
            </div>
-        </div>
-    </div>
-</div>
-
-    );
+        
+        </Container>
+    </>
+  )
 }
-export default Herosections
+
+export default Bloghero;
