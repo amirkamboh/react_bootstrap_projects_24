@@ -22,11 +22,11 @@ const Header = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mx-auto">
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/blog">Blog</Nav.Link>
-            <Nav.Link href="/single-post">Single Post</Nav.Link>
-            <Nav.Link href="/pages">Pages</Nav.Link>
-            <Nav.Link href="/contact">Contact</Nav.Link>
+            <Nav.Link href="#">Home</Nav.Link>
+            <Nav.Link href="#">Blog</Nav.Link>
+            <Nav.Link href="#">Single Post</Nav.Link>
+            <Nav.Link href="#">Pages</Nav.Link>
+            <Nav.Link href="#">Contact</Nav.Link>
           </Nav>
           <Form className="d-flex">
             <Form.Control type="search" placeholder="Search" className="me-2" aria-label="Search"/>
