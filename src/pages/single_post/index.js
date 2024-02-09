@@ -49,7 +49,7 @@ Automation and artificial intelligence (AI) technologies are increasingly being 
             Technology has transformed how employees acquire new skills and knowledge. Online learning platforms, webinars, and virtual training programs offer accessible and cost-effective opportunities for professional development. This emphasis on lifelong learning is essential in an era where technological advancements continually reshape job requirements and industries.
             </p>
 
-                <div className="bg-light border border-light-2 mb-4 px-3 py-3 rounded-2">
+                <div className="bg-light border border-light-2 mb-4 px-3 py-3 rounded-2 fst-italic fw-bold">
                   <p>
                     "Traveling can expose you to new environments and potential health
                     risks, so it's crucial to take precautions to stay safe and healthy. 
