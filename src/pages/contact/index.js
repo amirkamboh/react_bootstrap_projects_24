@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <>
         <div className="container">
-          <div className="row bg-light px-5 py-5 rounded-3">
+          <div className="row bg-light px-5 py-5 my-4 rounded-3">
             <div className="col-md-12 col-xs-12">
 
           <div className="row">
@@ -42,9 +42,9 @@ const Contact = () => {
             <div className="col-md-3 col-xs-12"></div>
           </div>
 
-          <div className="row">
+          <div className="row ms-5">
             <div className="col-md-5 col-xs-12"></div>
-            <div className="col-md-2 col-xs-12">
+            <div className="col-md-2 col-xs-12 ms-4">
             <i class="fa-brands fa-square-facebook px-1"></i>
             <i class="fa-brands fa-square-twitter px-1"></i>
             <i class="fa-brands fa-square-instagram px-1"></i>

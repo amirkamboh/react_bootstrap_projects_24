@@ -8,7 +8,7 @@ const Herosections = () => {
 <>
 
 <div className="container">
-    <div className="row my-5">
+    <div className="row my-4">
         <div className="col-md-12 col-xs-12">
         <div className="card rounded-3">
            <img className="card-img rounded-3" src={imge} alt="imge" style={{height: '560px'}} />
