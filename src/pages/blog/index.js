@@ -8,6 +8,7 @@ const Blog = () => {
   return (
     <>
       <Bloghero />
+      <br/>
       <Latestblog />
       <Learnmore />
       <Ads />

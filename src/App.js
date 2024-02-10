@@ -13,9 +13,9 @@ function App() {
       <Layout>
         <Routes>
           <Route path="/" exact element={<Home />} />
+          <Route path="/blog" exact element={<Blog />} />
           <Route path="/single-post" exact element={<SinglePost />} />
           <Route path="/contact" exact element={<Contact />} />
-          <Route path="/blog" exact element={<Blog />} />
         </Routes>
       </Layout>
     </div>

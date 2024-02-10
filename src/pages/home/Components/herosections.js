@@ -49,7 +49,7 @@ const Herosections = () => {
         </div>
     </div>
 </div>
-
+<br />
 <div className="container">
         <div className="row"></div>
         <div className="row my-5">
@@ -63,7 +63,7 @@ const Herosections = () => {
             </div>
             <div className="col-md-3 col-xs-12"></div>
         </div>
-      </div>
+</div>
 
 </>
 

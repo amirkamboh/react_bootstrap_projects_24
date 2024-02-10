@@ -2,6 +2,7 @@ import React from 'react'
 import { Button } from 'react-bootstrap';
 import SingleP from './../../media/Images/singlepost.PNG'
 import Travels from './../../media/Images/Travels.PNG'
+import Ads from './../../pages/home/Components/ads'
 
 const SinglePost = () => {
   return (
@@ -59,6 +60,7 @@ Automation and artificial intelligence (AI) technologies are increasingly being 
                 </div>
 
              <img src={Travels} alt='' className='rounded-2 mb-4' style={{ width: '100%' }}></img>
+             <Ads />
              <h3>Cybersecurity Challenges</h3>
              <p>
              As technology becomes more integrated into the workplace, cybersecurity threats become more prevalent. Organizations must invest in robust cybersecurity measures to protect sensitive data and mitigate the risk of cyberattacks. This includes implementing encryption, multi-factor authentication, and employee training on cybersecurity best practices.<br/><br/>

@@ -28,7 +28,7 @@ const Header = () => {
             </Nav.Link>
             <Nav.Link><Link to='/blog' className='Nav_Bar'>Blog</Link></Nav.Link>
             <Nav.Link><Link to="/single-post" className='Nav_Bar'>Single Post</Link></Nav.Link>
-            <Nav.Link><Link to='/pages' className='Nav_Bar'>Pages</Link></Nav.Link>
+            <Nav.Link className='Nav_Bar' href="#">Pages</Nav.Link>
             <Nav.Link><Link to='/contact' className='Nav_Bar'>Contact</Link></Nav.Link>
           </Nav>
           <Form className="d-flex">

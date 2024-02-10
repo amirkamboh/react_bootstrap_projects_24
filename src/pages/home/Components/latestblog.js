@@ -16,7 +16,7 @@ const Latestblog = () => {
       <div className="blog-sections">
 
         <div className="container">
-            <div className="row mt-2">
+            <div className="row">
                 <div className="col-md-4 col-xs-12">
                 <Card className='mt-3'>
                 <div className="img pt-2 px-2">
